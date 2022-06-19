@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=me.hao0.jbs.client.autoconfigure.JbsClientAutoConfiguration

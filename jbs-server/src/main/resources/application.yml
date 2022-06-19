@@ -1,0 +1,37 @@
+########### Spring Boot Configuration Start ###########
+
+server:
+  # the server port
+  address: 127.0.0.1
+  port: 22122
+
+spring:
+  # redis datasource
+  redis:
+    host: localhost
+    port: 6379
+
+logging:
+  # logback file location
+  config: @log.file@
+
+########### Spring Boot Configuration End ###########
+
+
+jbs:
+
+  # zk hosts
+  zk:
+
+    # zk servers
+    servers: 127.0.0.1:2181
+
+    # zk namespace
+    namespace: ats
+
+  # server failover wait time(secs)
+  serverFailoverWaitTime: 30
+
+  # schedule thread count
+  scheduleThreadCount: 32
+
